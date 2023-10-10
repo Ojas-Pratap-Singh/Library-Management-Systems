@@ -1,6 +1,5 @@
 package com.example.librabymanagementsystem.dto.responseDTO;
 
-import com.example.librabymanagementsystem.Enum.Gender;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
@@ -15,5 +14,6 @@ public class StudentResponse {
     String email;
     String message;
     String cardIssuedNo;
+    LibraryCardResponse libararyCardResponse;
 
 }
